@@ -16,7 +16,7 @@ namespace ByteBank.SistemaAgencia
 
 
             FuncionarioAutenticavel carlos = null;
-            carlos.GetBonificacao();
+            
             carlos.Autenticar("asdf");
 
 
