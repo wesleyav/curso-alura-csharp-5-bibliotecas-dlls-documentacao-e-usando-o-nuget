@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Modelos
 {
-    class AutenticacaoHelper // quando não há modificador na classe, é automaticamente internal
+    internal class AutenticacaoHelper
     {
         public bool CompararSenhas(string senhaVerdadeira, string senhaTentativa)
         {
