@@ -15,6 +15,7 @@ namespace ByteBank.SistemaInterno
 
             Console.WriteLine(conta.Saldo);
 
+            new ContaCorrente(456, 545);
             conta.Sacar(-10);
             string nome = "Guilherme";
 
